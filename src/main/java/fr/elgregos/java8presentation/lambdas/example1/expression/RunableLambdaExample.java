@@ -7,7 +7,7 @@ public class RunableLambdaExample {
 
 	public static void main(String... args) {
 		
-		Runnable task = () -> System.out.println("Run a new thread");
+		Runnable task = () -> System.out.println("Run a new thread with lambdas");
 		
 		
 		ExecutorService executor = Executors.newSingleThreadExecutor();

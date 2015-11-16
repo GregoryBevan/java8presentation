@@ -4,7 +4,7 @@ public class Car implements Vehicle, FourWheelsVehicle {
 
 	@Override
 	public int getNumberOfWheels() {
-		return 4;
+		return FourWheelsVehicle.super.getNumberOfWheels();
 	}
 
 }
