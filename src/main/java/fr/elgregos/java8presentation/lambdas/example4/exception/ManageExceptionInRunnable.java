@@ -12,7 +12,7 @@ public class ManageExceptionInRunnable {
 			try {
 				Thread.sleep(5000);
 			} catch (InterruptedException e) {
-				System.err.format("An error occurred : %s", e.getMessage());
+				System.err.printf("An error occurred : %s", e.getMessage());
 			}
 		};
 

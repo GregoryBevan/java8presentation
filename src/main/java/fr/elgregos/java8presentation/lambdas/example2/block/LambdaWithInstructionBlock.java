@@ -10,7 +10,7 @@ public class LambdaWithInstructionBlock {
 		// Bloc d'instruction
 		Comparator<String> stringLengthComparator = (s1, s2) -> {
 			int compareTo = Integer.compare(s1.length(), s2.length());
-			System.out.format("Compare \"%s\" et \"%s\" : %s \n", s1, s2, compareTo);			
+			System.out.printf("Compare \"%s\" et \"%s\" : %s \n", s1, s2, compareTo);			
 			return compareTo;
 		};
 		
@@ -18,10 +18,10 @@ public class LambdaWithInstructionBlock {
 		String[] numbers = new String[] {"un", "deux", "trois", "quatre", "cinq"};
 		Arrays.sort(numbers, stringLengthComparator);
 				
-		System.out.println();
+		System.out.println("\nSort result");
 		
 		for(int i = 0; i < numbers.length; i++) {
-			System.out.print(numbers[i] + " ");
+			System.out.printf("%s ",numbers[i]);
 		}
 		
 	}

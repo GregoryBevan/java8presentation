@@ -9,7 +9,7 @@ public class StaticMethodsExample {
 		customer.info = "Our first customer";
 		CustomerService.addCustomer(customer);
 
-		System.out.format("Nombre de client : %s", CustomerService.getCustomerCount());
+		System.out.printf("Nombre de client : %s", CustomerService.getCustomerCount());
 	}
 
 }

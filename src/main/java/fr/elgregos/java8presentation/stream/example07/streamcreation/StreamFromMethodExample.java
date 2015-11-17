@@ -1,4 +1,4 @@
-package fr.elgregos.java8presentation.stream.example2.streamcreation;
+package fr.elgregos.java8presentation.stream.example07.streamcreation;
 
 import java.util.regex.Pattern;
 import java.util.stream.Stream;

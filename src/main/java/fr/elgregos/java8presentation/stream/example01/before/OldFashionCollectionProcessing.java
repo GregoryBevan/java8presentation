@@ -1,4 +1,4 @@
-package fr.elgregos.java8presentation.stream.example1.before;
+package fr.elgregos.java8presentation.stream.example01.before;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -6,7 +6,7 @@ import java.util.Comparator;
 import java.util.List;
 
 import fr.elgregos.java8presentation.stream.Person;
-import fr.elgregos.java8presentation.stream.Person.Sex;
+import fr.elgregos.java8presentation.stream.Person.Gender;
 import fr.elgregos.java8presentation.stream.PersonRoster;
 
 public class OldFashionCollectionProcessing {
@@ -16,7 +16,7 @@ public class OldFashionCollectionProcessing {
 
 		List<Person> male = new ArrayList<>();
 		for (Person person : roster) {
-			if (person.sex == Sex.MALE) {
+			if (person.gender == Gender.MALE) {
 				male.add(person);
 			}
 		}
