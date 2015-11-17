@@ -10,7 +10,6 @@ public class VariableScopeExample {
 	public static void main(String... args) {
 		int counter = 0;
 		int[] counterArray = new int[1];
-		counterArray[0] = 0;
 		List<String> list = new ArrayList<>();
 		
 		Runnable runnable = () -> {

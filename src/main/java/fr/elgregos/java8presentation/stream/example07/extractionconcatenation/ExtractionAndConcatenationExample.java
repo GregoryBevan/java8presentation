@@ -1,4 +1,4 @@
-package fr.elgregos.java8presentation.stream.example06.extractionconcatenation;
+package fr.elgregos.java8presentation.stream.example07.extractionconcatenation;
 
 import java.util.stream.Stream;
 
