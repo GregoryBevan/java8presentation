@@ -11,6 +11,10 @@ public class ConstructorReferenceExample {
 
 		Team team = teamBuilder.createTeam(teamFirstName);
 		
+		displayResult(team);
+	}
+
+	private static void displayResult(Team team) {
 		// Display team members first name
 		team.firstName.forEach(System.out::println);
 	}

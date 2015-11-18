@@ -11,16 +11,16 @@ public class VariableScopeExample {
 		int counter = 0;
 		int[] counterArray = new int[1];
 		List<String> list = new ArrayList<>();
-		
+
 		Runnable runnable = () -> {
-			System.out.printf("Counter : %s \n", counter); // counter is in the scope of the closure			
-//			counter++;  // counter is immutable
+			System.out.printf("Counter : %s \n", counter); // counter is in the scope of the closure
+			// counter++; // counter is immutable
 			counterArray[0]++;
 			list.add(String.valueOf(counterArray[0]));
-			System.out.printf("Counter array : %s \n", counterArray[0]); // counter is in the scope of the closure	
+			System.out.printf("Counter array : %s \n", counterArray[0]); // counterArray is in the scope of the closure and its value could be
+																			// modified at your own risk
 		};
-		
-		
+
 		ExecutorService newSingleThreadExecutor = Executors.newSingleThreadExecutor();
 		newSingleThreadExecutor.execute(runnable);
 		newSingleThreadExecutor.execute(runnable);
