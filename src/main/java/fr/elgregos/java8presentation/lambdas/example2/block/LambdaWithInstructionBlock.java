@@ -18,12 +18,15 @@ public class LambdaWithInstructionBlock {
 		String[] numbers = new String[] {"un", "deux", "trois", "quatre", "cinq"};
 		Arrays.sort(numbers, stringLengthComparator);
 				
-		System.out.println("\nSort result");
+		displayResult(numbers);
 		
+	}
+
+	private static void displayResult(String[] numbers) {
+		System.out.println("\nSort result");		
 		for(int i = 0; i < numbers.length; i++) {
 			System.out.printf("%s ",numbers[i]);
 		}
-		
 	}
 
 }
