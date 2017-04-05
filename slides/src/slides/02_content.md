@@ -1,5 +1,5 @@
 ## Plan
-<br><br>  
+<br>
 - Lambda functions
 <br><br>
 - Stream API
@@ -7,4 +7,4 @@
 - Date Time API
 <br><br>
 - Et encore...
-<br><br><br>
+<br><br>
