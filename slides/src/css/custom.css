@@ -1,0 +1,80 @@
+body {
+    background: #1c1e20;
+    background: -webkit-linear-gradient(left top, #555a5f, #1c1e20);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #555a5f, #1c1e20);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #555a5f, #1c1e20);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #555a5f, #1c1e20);
+    /* Standard syntax */
+    background-color: #2b2b2b;
+}
+
+body:after {
+    content: url(../images/logo-zenika.png);
+    transform: scale(0.3);
+    position: fixed;
+    margin: 0;
+    top: -3em;
+    left: -3em;
+}
+
+.reveal h1 {
+    font-size: 3em;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+    text-transform: none;
+}
+
+.reveal section img[alt=logo_java8] {
+    border: none;
+    width: 20%;
+    height: 20%;
+    background: none;
+    margin: 0px;
+    box-shadow: none;
+}
+
+.reveal section img[alt=logo_docker] {
+    border: none;
+    width: 10%;
+    height: 10%;
+    background: none;
+    margin: 0px;
+    box-shadow: none;
+}
+
+.reveal section img[alt=logo_jenkins] {
+    border: none;
+    width: 10%;
+    height: 10%;
+    background: none;
+    margin: 0px;
+    box-shadow: none;
+}
+
+.reveal section img[alt=logo_vuejs] {
+    border: none;
+    width: 10%;
+    height: 10%;
+    background: none;
+    margin: 0px;
+    box-shadow: none;
+}
+
+.reveal section img[alt=logo_kotlin] {
+    border: none;
+    width: 8%;
+    height: 8%;
+    background: none;
+    margin: 0px;
+    box-shadow: none;
+}
