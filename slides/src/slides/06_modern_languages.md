@@ -4,7 +4,7 @@ Python (1990)
 <br>
 Ruby (1995)
 <br>
-Jabascript (1995)
+Javascript (1995)
 <br>
 F# (2002)
 <br>
