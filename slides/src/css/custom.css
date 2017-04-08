@@ -45,36 +45,76 @@ body:after {
 
 .reveal section img[alt=logo_docker] {
     border: none;
-    width: 10%;
-    height: 10%;
     background: none;
+    width: 200px;
+    height: 200px;
     margin: 0px;
     box-shadow: none;
+    display: inline-block;
 }
 
 .reveal section img[alt=logo_jenkins] {
     border: none;
-    width: 10%;
-    height: 10%;
     background: none;
+    width: 300px;
+    height: 200px;
     margin: 0px;
     box-shadow: none;
+    display: inline-block;
 }
 
 .reveal section img[alt=logo_vuejs] {
     border: none;
-    width: 10%;
-    height: 10%;
     background: none;
+    width: 250px;
+    height: 200px;
     margin: 0px;
     box-shadow: none;
+    display: inline-block;
 }
 
 .reveal section img[alt=logo_kotlin] {
     border: none;
-    width: 8%;
-    height: 8%;
     background: none;
+    width: 200px;
+    height: 180px;
+    box-shadow: none;
+    display: inline-block;
+}
+
+.reveal section img[alt=logo_gradle] {
+    border: none;
+    background: none;
+    width: 200px;
+    height: 200px;
     margin: 0px;
     box-shadow: none;
+    display: inline-block;
+}
+
+#line_logo {
+  overflow: hidden;
+}
+
+#logo,#logo li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+  position: relative;
+}
+
+#logo {
+  left: 50%;
+  height: 300px;
+  vertical-align: middle;
+}
+
+#logo li {
+  right: 50%;
+  display: inline-block;
+  text-align: center;
+  width: 280px;
+  height: 100%;
+  vertical-align: middle;
 }
