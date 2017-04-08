@@ -20,6 +20,11 @@ body:after {
     left: -3em;
 }
 
+.reveal pre {
+    max-width: 70%;
+    font-size: 30px;
+}
+
 .reveal h1 {
     font-size: 3em;
     text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);

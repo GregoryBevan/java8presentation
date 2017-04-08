@@ -12,8 +12,7 @@ public class RunnableExample {
 			public void run() {
 					System.out.println("Run a new thread");
 			}
-		};
-		
+		};		
 		
 		ExecutorService executor = Executors.newSingleThreadExecutor();
 		executor.execute(task);
