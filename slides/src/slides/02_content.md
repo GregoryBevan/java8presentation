@@ -1,10 +1,10 @@
-## Plan
+## Quelles nouveautés ?
 <br>
-- Lambda functions
+Lambda functions
 <br><br>
-- Stream API
+Stream API
 <br><br>
-- Date Time API
+Date Time API
 <br><br>
-- Et encore...
+Et encore...
 <br><br>
