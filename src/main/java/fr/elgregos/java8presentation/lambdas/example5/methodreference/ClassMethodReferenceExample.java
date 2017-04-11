@@ -5,12 +5,14 @@ import java.util.Arrays;
 public class ClassMethodReferenceExample {
 
 	public static void main(String... args) {
-		String[] teamFirstName = new String []{"Magali", "Medy", "Thomas", "Dany", "Gaëtan", "Arnaud", "David", "Guillaume", "Antoine", "Grégory"};
+		String[] teamFirstName = new String []{"Magali", "Medy", "Thomas", "Dany", "Gaï¿½tan", "Arnaud", "David", "Guillaume", "Antoine", "Grï¿½gory"};
 				
 		TeamFirstNameDisplayer.display(teamFirstName);
 		
-		// Appel de la méthode compareTo de la classe String
-		Arrays.sort(teamFirstName, String::compareTo);
+		// Appel de la mï¿½thode compareTo de la classe String
+
+		Arrays.sort(teamFirstName, (nom1, nom2) -> nom1.compareTo(nom2));
+//		Arrays.sort(teamFirstName, String::compareTo);
 		
 		TeamFirstNameDisplayer.display(teamFirstName);
 		

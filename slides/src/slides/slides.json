@@ -17,5 +17,7 @@
     "15_comparator_example.md",
     "16_functional_interface.md",
     "17_operator_example.md",
-    "18_generic_functional_interfaces.md"
+    "18_generic_functional_interfaces.md",
+    "19_method_reference.md",
+    "20_class_method_reference.md"
 ]
