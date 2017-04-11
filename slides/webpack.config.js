@@ -9,7 +9,7 @@ module.exports = {
         app: './main.js',
     },
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, '../docs'),
         filename: 'build.js'
     },
     externals: {
