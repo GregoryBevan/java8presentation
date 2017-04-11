@@ -1,4 +1,5 @@
 ## Illustration de la portée des variables
+<br>
 ```java
 int counter = 0;
 int[] counterArray = new int[1];
