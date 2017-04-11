@@ -11,8 +11,8 @@ public class ClassMethodReferenceExample {
 		
 		// Appel de la m�thode compareTo de la classe String
 
-		Arrays.sort(teamFirstName, (nom1, nom2) -> nom1.compareTo(nom2));
-//		Arrays.sort(teamFirstName, String::compareTo);
+		// Arrays.sort(teamFirstName, (nom1, nom2) -> nom1.compareTo(nom2));
+		Arrays.sort(teamFirstName, String::compareTo);
 		
 		TeamFirstNameDisplayer.display(teamFirstName);
 		
