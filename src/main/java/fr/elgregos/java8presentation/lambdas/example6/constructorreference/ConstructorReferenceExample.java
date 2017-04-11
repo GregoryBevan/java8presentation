@@ -3,10 +3,11 @@ package fr.elgregos.java8presentation.lambdas.example6.constructorreference;
 public class ConstructorReferenceExample {
 
 	public static void main(String... args) {
-		String[] teamFirstName = new String[] { "Magali", "Medy", "Thomas", "Dany", "Gaëtan", "Arnaud", "David",
-				"Guillaume", "Antoine", "Grégory" };
+		String[] teamFirstName = new String[] { "Magali", "Medy", "Thomas", "Dany", "Gaï¿½tan", "Arnaud", "David",
+				"Guillaume", "Antoine", "Grï¿½gory" };
 		
 		// The constructor reference
+// 		TeamBuilder teamBuilder = (names) -> new Team(names);
 		TeamBuilder teamBuilder = Team::new;
 
 		Team team = teamBuilder.createTeam(teamFirstName);
@@ -18,5 +19,5 @@ public class ConstructorReferenceExample {
 		// Display team members first name
 		team.firstName.forEach(System.out::println);
 	}
-
+	
 }

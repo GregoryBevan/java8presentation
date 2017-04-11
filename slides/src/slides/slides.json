@@ -21,5 +21,7 @@
     "19_method_reference.md",
     "20_class_method_reference.md",
     "21_object_method_reference.md",
-    "22_static_method_reference.md"
+    "22_static_method_reference.md",
+    "23_constructor_reference.md",
+    "24_constructor_reference.md"
 ]
