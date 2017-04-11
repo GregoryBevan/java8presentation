@@ -19,5 +19,6 @@
     "17_operator_example.md",
     "18_generic_functional_interfaces.md",
     "19_method_reference.md",
-    "20_class_method_reference.md"
+    "20_class_method_reference.md",
+    "21_object_method_reference.md"
 ]
