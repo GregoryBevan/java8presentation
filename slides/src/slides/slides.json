@@ -23,5 +23,7 @@
     "21_object_method_reference.md",
     "22_static_method_reference.md",
     "23_constructor_reference.md",
-    "24_constructor_reference.md"
+    "24_constructor_reference.md",
+    "25_variable_scope.md",
+    "26_variable_scope_example.md"
 ]
