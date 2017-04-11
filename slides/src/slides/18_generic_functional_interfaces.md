@@ -1,7 +1,7 @@
 ## Interfaces fonctionnelles génériques
 <br>
 <p>
-Contenues dans le package _java.util.function_
+Contenues dans le package _[java.util.function](https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html)_ 
 </p>
 <br>
 <table>

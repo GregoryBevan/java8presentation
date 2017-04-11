@@ -13,8 +13,9 @@
     "11_with_java_8.md",
     "12_lambda_expression.md",
     "13_lambda_syntax.md",
-    "14_comparator_example.md",
-    "15_functional_interface.md",
-    "16_operator_example.md",
-    "17_generic_functional_interfaces.md"
+    "14_different_syntax.md",
+    "15_comparator_example.md",
+    "16_functional_interface.md",
+    "17_operator_example.md",
+    "18_generic_functional_interfaces.md"
 ]
