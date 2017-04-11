@@ -6,7 +6,7 @@ var CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
     context: path.join(__dirname, 'src'),
     entry: {
-        app: './main.js',
+        app: './main.js'
     },
     output: {
         path: path.resolve(__dirname, '../docs'),
@@ -33,7 +33,8 @@ module.exports = {
         }),
         new CopyWebpackPlugin([
             { from: { glob: 'slides/*.md' } },
-            { from: { glob: 'images/*.*' } }
+            { from: { glob: 'images/*.*' } },
+            { from: '../node_modules/reveal.js', to: 'revealjs'}
         ])
     ],
     devServer: {

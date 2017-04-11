@@ -2,7 +2,7 @@
     "name": "kotlin-one-year-later",
     "version": "1.0.0",
     "description": "Point on Kotlin one year after it's first release",
-    "main": "index.js",
+    "main": "main.js",
     "scripts": {
         "dev": "webpack-dev-server --open --hot",
         "build": "webpack"
