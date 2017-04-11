@@ -12,5 +12,9 @@
     "10_anoymous_class_caracteristics.md",
     "11_with_java_8.md",
     "12_lambda_expression.md",
-    "13_lambda_syntax.md"
+    "13_lambda_syntax.md",
+    "14_comparator_example.md",
+    "15_functional_interface.md",
+    "16_operator_example.md",
+    "17_generic_functional_interfaces.md"
 ]
