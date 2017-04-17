@@ -30,5 +30,7 @@
     "28_default_method-example.md",
     "29_static_method.md",
     "30_static_method_example.md",
-    "31_stream_api.md"
+    "31_stream_api.md",
+    "32_avoid_confusion.md",
+    "33_why_stream.md"
 ]
