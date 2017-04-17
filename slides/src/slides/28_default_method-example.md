@@ -1,4 +1,4 @@
-## Exemple de méthode par défaut
+## Exemples de méthode par défaut
 <br><br>
 Nouvelle méthode _sort_ de l'interface _List_
 ```java

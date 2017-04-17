@@ -27,5 +27,7 @@
     "25_variable_scope.md",
     "26_variable_scope_example.md",
     "27_default_method.md",
-    "28_default_method-example.md"
+    "28_default_method-example.md",
+    "29_static_method.md",
+    "30_static_method_example.md"
 ]
