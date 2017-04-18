@@ -32,5 +32,6 @@
     "30_static_method_example.md",
     "31_stream_api.md",
     "32_avoid_confusion.md",
-    "33_why_stream.md"
+    "33_why_stream.md",
+    "34_stream_characteristic.md"
 ]

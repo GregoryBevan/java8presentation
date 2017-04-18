@@ -2,9 +2,10 @@
 <br>
 Nouvelle méthode _comparingByKey_ de l'interface _Map_
 ```java
-public static <K extends Comparable<? super K>, V> Comparator<Map.Entry<K,V>> comparingByKey() {
-    return (Comparator<Map.Entry<K, V>> & Serializable)
-        (c1, c2) -> c1.getKey().compareTo(c2.getKey());
+public static <K extends Comparable<? super K>, V>
+    Comparator<Map.Entry<K,V>> comparingByKey() {
+        return (Comparator<Map.Entry<K, V>> & Serializable)
+            (c1, c2) -> c1.getKey().compareTo(c2.getKey());
 }
 ```
 <br>
