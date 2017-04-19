@@ -1,4 +1,4 @@
-package fr.elgregos.java8presentation.stream.example06.streamcreation;
+package fr.elgregos.java8presentation.stream.example02.streamcreation;
 
 import java.util.stream.Stream;
 

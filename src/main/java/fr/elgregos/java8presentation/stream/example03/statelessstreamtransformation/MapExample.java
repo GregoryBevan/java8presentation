@@ -1,4 +1,4 @@
-package fr.elgregos.java8presentation.stream.example02.streamtransformation;
+package fr.elgregos.java8presentation.stream.example03.statelessstreamtransformation;
 
 import java.time.LocalDate;
 import java.util.List;

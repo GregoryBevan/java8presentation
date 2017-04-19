@@ -33,5 +33,8 @@
     "31_stream_api.md",
     "32_avoid_confusion.md",
     "33_why_stream.md",
-    "34_stream_characteristic.md"
+    "34_stream_characteristic.md",
+    "35_stream_demo.md",
+    "36_pipeline.md",
+    "37_stream_creation.md"
 ]

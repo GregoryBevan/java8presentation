@@ -1,4 +1,4 @@
-package fr.elgregos.java8presentation.stream.example02.streamtransformation;
+package fr.elgregos.java8presentation.stream.example03.statelessstreamtransformation;
 
 import java.util.List;
 import java.util.Set;

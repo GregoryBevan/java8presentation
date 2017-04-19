@@ -1,10 +1,10 @@
 ## Caractéristiques d'un Stream
 <br><br>
-Séquence d'éléments n'est jamais stockée
+Pas une structure de stockage, mais une séquence d'éléments
 <br><br>
 Ne peut être réutilisé
 <br><br>
 N'altère pas la source d'éléments
 <br><br>
-Opérations optimisées et parallélisables
+Pipeline d'opérations optimisées et parallélisables
 <br><br>

@@ -1,4 +1,4 @@
-package fr.elgregos.java8presentation.stream.example02.streamtransformation;
+package fr.elgregos.java8presentation.stream.example03.statelessstreamtransformation;
 
 import java.util.List;
 import java.util.function.Predicate;
@@ -15,11 +15,11 @@ public class FilterExample {
 		System.out.println("Adult person");
 		roster.stream().filter(p -> p.getAge() > 18).forEach(System.out::println);
 		
-		// Filtrer selon une méthode statique
+		// Filtrer selon une mï¿½thode statique
 		System.out.println("\nChild person");
 		roster.stream().filter(FilterExample::isChild).forEach(System.out::println);
 		
-		// Filtrer selon une méthode retournant un prédicat 
+		// Filtrer selon une mï¿½thode retournant un prï¿½dicat 
 		System.out.println("\nJ person");
 		roster.stream().filter(firstNamePredicate()).forEach(System.out::println);
 	}

@@ -134,3 +134,14 @@ body:after {
     box-shadow: none;
     display: inline-block;
 }
+
+.reveal section img[alt=pipeline] {
+    border: none;
+    background: none;
+    width: 70%;
+    height: 70%;
+    margin-top: -5%;
+    margin-left: -5%;
+    box-shadow: none;
+    display: inline-block;
+}
