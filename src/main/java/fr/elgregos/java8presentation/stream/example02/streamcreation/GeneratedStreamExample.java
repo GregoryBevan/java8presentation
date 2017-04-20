@@ -5,7 +5,7 @@ import java.util.stream.Stream;
 public class GeneratedStreamExample {
 
 	public static void main(String... args) {
-		Stream<String> constantStream = Stream.generate(() -> "Echo");
+		Stream<String> constantStream = Stream.generate(() -> "echo");
 		
 		Stream<Double> randoms = Stream.generate(Math::random);
 		

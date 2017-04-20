@@ -9,8 +9,10 @@ public class IntStreamExample {
 		IntStream range = IntStream.range(0, 10);
 		IntSummaryStatistics summaryStatistics = range.summaryStatistics();
 
-		System.out.printf("Somme des entiers de 0 à 9 =  %s \n", summaryStatistics.getSum());
-		System.out.printf("Moyenne des entiers de 0 à 9 =  %s \n", summaryStatistics.getAverage());
+		System.out.printf("Somme des entiers de 0 ï¿½ 9 =  %s \n", summaryStatistics.getSum());
+		System.out.printf("Moyenne des entiers de 0 ï¿½ 9 =  %s \n", summaryStatistics.getAverage());
+		
+		IntStream.rangeClosed(1,10).map(i -> i++).forEach(System.out::println);
 	}
 
 }

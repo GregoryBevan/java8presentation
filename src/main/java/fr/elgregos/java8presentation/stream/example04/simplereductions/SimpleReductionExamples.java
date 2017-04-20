@@ -7,7 +7,7 @@ import java.util.Optional;
 import fr.elgregos.java8presentation.stream.Person;
 import fr.elgregos.java8presentation.stream.PersonRoster;
 
-public class SimpleReductionsExample {
+public class SimpleReductionExamples {
 
 	public static void main(String... args) {
 		List<Person> roster = PersonRoster.createRoster();
@@ -19,3 +19,4 @@ public class SimpleReductionsExample {
 		System.out.printf("The most polyglot person is  : %s", mostPolyglot.get());
 	}
 }
+

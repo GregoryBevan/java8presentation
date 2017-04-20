@@ -36,5 +36,10 @@
     "34_stream_characteristic.md",
     "35_stream_demo.md",
     "36_pipeline.md",
-    "37_stream_creation.md"
+    "37_stream_creation.md",
+    "38_stateless_intermediate_operation.md",
+    "39_stateful_intermediate_operation.md",
+    "40_iteration.md",
+    "41_simple_reduction.md",
+    "42_find.md"
 ]

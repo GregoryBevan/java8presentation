@@ -1,4 +1,4 @@
-package fr.elgregos.java8presentation.stream.example07.extractionconcatenation;
+package fr.elgregos.java8presentation.stream.example03.statelessstreamtransformation;
 
 import java.util.stream.Stream;
 
