@@ -1,0 +1,1 @@
+# Un premier exemple de Stream
