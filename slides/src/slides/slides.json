@@ -41,5 +41,7 @@
     "39_stateful_intermediate_operation.md",
     "40_iteration.md",
     "41_simple_reduction.md",
-    "42_find.md"
+    "42_find.md",
+    "43_optional.md",
+    "44_match.md"
 ]
