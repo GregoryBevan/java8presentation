@@ -45,5 +45,8 @@
     "43_optional.md",
     "44_match.md",
     "45_reduction.md",
-    "46_collect.md"
+    "46_collect.md",
+    "47_collect.md",
+    "48_joining&grouping.md",
+    "49_parallel_stream.md"
 ]
