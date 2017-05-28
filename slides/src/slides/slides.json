@@ -43,5 +43,7 @@
     "41_simple_reduction.md",
     "42_find.md",
     "43_optional.md",
-    "44_match.md"
+    "44_match.md",
+    "45_reduction.md",
+    "46_collect.md"
 ]

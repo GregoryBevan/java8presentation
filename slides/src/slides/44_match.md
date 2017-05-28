@@ -8,7 +8,7 @@ boolean allMatch (Predicate<T> predicate)
 ```
 <br>
 ```java
-// Vrai si certains éléments du flux répondent à la condition
+// Vrai si un ou plusieurs éléments du flux répondent à la condition
 boolean anyMatch(Predicate<? super T> predicate)
 ```
 <br>
