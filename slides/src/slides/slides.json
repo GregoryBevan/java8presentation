@@ -48,5 +48,8 @@
     "46_collect.md",
     "47_collect.md",
     "48_joining&grouping.md",
-    "49_parallel_stream.md"
+    "49_parallel_stream.md",
+    "50_date_time_api.md",
+    "51_why_date_time_api.md",
+    "52_main_concepts.md"
 ]
