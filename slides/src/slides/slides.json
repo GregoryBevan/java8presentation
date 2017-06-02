@@ -51,5 +51,7 @@
     "49_parallel_stream.md",
     "50_date_time_api.md",
     "51_why_date_time_api.md",
-    "52_main_concepts.md"
+    "52_main_concepts.md",
+    "53_date_management.md",
+    "54_local_date.md"
 ]
