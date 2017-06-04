@@ -1,4 +1,4 @@
-## LocalDate
+## LocalDateTime
 <br><br>
 Construction de date locale
 ```java

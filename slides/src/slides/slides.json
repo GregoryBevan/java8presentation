@@ -53,5 +53,7 @@
     "51_why_date_time_api.md",
     "52_main_concepts.md",
     "53_date_management.md",
-    "54_local_date.md"
+    "54_local_date.md",
+    "55_local_time.md",
+    "56_local_date_time.md"
 ]
