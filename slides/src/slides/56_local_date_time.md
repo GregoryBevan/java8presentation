@@ -1,16 +1,18 @@
 ## LocalDateTime
 <br><br>
-Construction de date locale
+Construction de date et heure locale
 ```java
-LocalDate localDate = LocalDate.now();
-LocalDate localDate = LocalDate.of(2017, 06, 19);
-LocalDate localDate = LocalDate.parse("2017-06-19");
+LocalDateTime now = LocalDateTime.now()
+LocalDateTime startingDateTime = LocalDateTime.of(2017, Month.JUNE, 19, 9, 30);
+LocalDateTime endingDateTime = LocalDateTime.parse("2017-06-19T11:00");
 ```
-Méthodes pour manipuler les dates
+Méthodes pour manipuler les dates et heures locales
 ```java
-LocalDate tomorrow = LocalDate.now().plusDays(1);
-DayOfWeek monday = LocalDate.parse("2017-06-19").getDayOfWeek();
-boolean leapYear = LocalDate.now().isLeapYear();
-boolean notBefore = LocalDate.parse("2017-06-19").isBefore(LocalDate.parse("2016-06-18"))
+LocalDateTime nextSession = LocalDateTime.of(2017, 06, 19, 9, 30)
+                                         .plusDays(1).plusMinutes(30);
+LocalDateTime firstDayOfNextMonth = LocalDateTime.now().with(TemporalAdjusters
+                                                .firstDayOfNextMonth());
+LocalDateTime min = LocalDateTime.MIN;
+LocalDateTime max = LocalDateTime.MAX;
 ```
 <br><br>
