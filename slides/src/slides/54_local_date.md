@@ -6,6 +6,7 @@ LocalDate now = LocalDate.now();
 LocalDate startingDate = LocalDate.of(2017, 06, 19);
 LocalDate endingDate = LocalDate.parse("2017-06-19");
 ```
+<br>
 Méthodes pour manipuler les dates
 ```java
 LocalDate tomorrow = LocalDate.now().plusDays(1);

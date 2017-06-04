@@ -6,6 +6,7 @@ LocalTime now = LocalTime.now();
 LocalTime startingTime = LocalTime.of(9, 30);
 LocalTime endingTime = LocalTime.parse("09:30");
 ```
+<br>
 Méthodes pour manipuler les heures locales
 ```java
 LocalTime oneHourLater = LocalTime.now().plusHours(1);
