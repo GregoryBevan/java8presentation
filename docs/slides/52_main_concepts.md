@@ -6,3 +6,5 @@ Application de DDD pour concevoir les classes
 <br><br>
 Notion de chronologie pour différencier les calendriers du monde
 <br><br>
+<i>=> Le calendrier par défaut est nommé ISO-8601</i>
+<br><br>
