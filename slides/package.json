@@ -1,7 +1,7 @@
 {
-    "name": "kotlin-one-year-later",
+    "name": "java8presentation",
     "version": "1.0.0",
-    "description": "Point on Kotlin one year after it's first release",
+    "description": "All what you need to know about Java 8 new features",
     "main": "main.js",
     "scripts": {
         "dev": "webpack-dev-server --open --hot",
@@ -9,14 +9,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/GregoryBevan/kotlin-one-year-later.git"
+        "url": "git+https://github.com/GregoryBevan/java8presentation.git"
     },
     "author": "GregoryBevan",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/GregoryBevan/kotlin-one-year-later/issues"
+        "url": "https://github.com/GregoryBevan/java8presentation.git/issues"
     },
-    "homepage": "https://github.com/GregoryBevan/kotlin-one-year-later#readme",
+    "homepage": "https://github.com/GregoryBevan/java8presentation.git#readme",
     "dependencies": {
         "highlight.js": "^9.9.0",
         "reveal.js": "^3.4.1"
