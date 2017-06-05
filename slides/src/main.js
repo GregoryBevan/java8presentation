@@ -25,6 +25,7 @@ Reveal.initialize({
     mouseWheel: false,
     margin: 0,
     theme: 'revealjs/css/theme/white.css',
+    pdfMaxPagesPerSlide: 1,
     keyboard: {
         38: 'next',
         40: 'prev'

@@ -56,5 +56,8 @@
     "54_local_date.md",
     "55_local_time.md",
     "56_local_date_time.md",
-    "57_zoned_date_time.md"
+    "57_zoned_date_time.md",
+    "58_period_duration.md",
+    "59_instant.md",
+    "60_datetime_formatter.md"
 ]
