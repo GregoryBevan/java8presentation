@@ -1,4 +1,4 @@
-package fr.elgregos.java8presentation.datetime.instant;
+package fr.elgregos.java8presentation.datetime.example07.instant;
 
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;

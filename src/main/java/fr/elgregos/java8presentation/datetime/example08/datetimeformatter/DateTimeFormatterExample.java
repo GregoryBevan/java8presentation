@@ -1,4 +1,4 @@
-package fr.elgregos.java8presentation.datetime.datetimeformatter;
+package fr.elgregos.java8presentation.datetime.example08.datetimeformatter;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

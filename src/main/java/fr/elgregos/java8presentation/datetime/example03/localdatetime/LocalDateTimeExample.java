@@ -1,4 +1,4 @@
-package fr.elgregos.java8presentation.datetime.localdatetime;
+package fr.elgregos.java8presentation.datetime.example03.localdatetime;
 
 import java.time.LocalDateTime;
 import java.time.Month;

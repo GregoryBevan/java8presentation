@@ -1,4 +1,4 @@
-package fr.elgregos.java8presentation.datetime.duration;
+package fr.elgregos.java8presentation.datetime.example06.duration;
 
 import java.time.Duration;
 import java.time.LocalDateTime;

@@ -1,4 +1,4 @@
-package fr.elgregos.java8presentation.datetime.zoneddatetime;
+package fr.elgregos.java8presentation.datetime.example04.zoneddatetime;
 
 import java.time.LocalDateTime;
 import java.time.ZoneId;

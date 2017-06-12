@@ -1,4 +1,4 @@
-package fr.elgregos.java8presentation.datetime.period;
+package fr.elgregos.java8presentation.datetime.example05.period;
 
 import java.time.LocalDate;
 import java.time.Month;

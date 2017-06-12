@@ -1,4 +1,4 @@
-package fr.elgregos.java8presentation.datetime.localdate;
+package fr.elgregos.java8presentation.datetime.example01.localdate;
 
 import java.time.LocalDate;
 
