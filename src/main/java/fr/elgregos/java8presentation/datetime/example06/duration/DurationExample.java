@@ -14,7 +14,7 @@ public class DurationExample {
 		Duration talkDuration = Duration.between(startingDate, endingDate);
 		long hours = ChronoUnit.HOURS.between(startingDate, endingDate);
 		long minutes = ChronoUnit.MINUTES.between(startingDate, endingDate);
-		System.out.printf("La présentation dure %d heure et %d minutes ou %d seondes (%s)", hours,
+		System.out.printf("La présentation dure au moins %d heure ou %d minutes ou %d seondes (%s)", hours,
 				minutes, talkDuration.getSeconds(), talkDuration);
 
 	}

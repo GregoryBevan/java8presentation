@@ -5,12 +5,12 @@ import java.util.Arrays;
 public class StaticMethodReference {
 
 	public static void main(String... strings) {
-		String[] teamFirstName = new String[] { "Magali", "Medy", "Thomas", "Dany", "Gaëtan", "Arnaud", "David",
-				"Guillaume", "Antoine", "Grégory" };
+		String[] teamFirstName = new String[] { "Magali", "Medy", "Thomas", "Dany", "GaÃ«tan", "Arnaud", "David",
+				"Guillaume", "Antoine", "GrÃ©gory" };
 
 		TeamFirstNameDisplayer.display(teamFirstName);
 
-		// Appel de la méthode static compareLength
+		// Appel de la mÃ©thode statique compareLength
 		Arrays.sort(teamFirstName, StaticMethodReference::compareLength);
 
 		TeamFirstNameDisplayer.display(teamFirstName);

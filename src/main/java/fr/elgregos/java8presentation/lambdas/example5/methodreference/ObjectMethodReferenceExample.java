@@ -11,12 +11,12 @@ public class ObjectMethodReferenceExample {
 	}
 
 	public static void main(String... strings) {
-		String[] teamFirstName = new String[] { "Magali", "Medy", "Thomas", "Dany", "Ga�tan", "Arnaud", "David",
-				"Guillaume", "Antoine", "Gr�gory" };
+		String[] teamFirstName = new String[] { "Magali", "Medy", "Thomas", "Dany", "Gaëtan", "Arnaud", "David",
+				"Guillaume", "Antoine", "Grégory" };
 
 		TeamFirstNameDisplayer.display(teamFirstName);
 
-		// Appel de la m�thode compareTo d'une instance d'objet
+		// Appel de la méthode compareTo d'une instance d'objet
 		ReverseComparator customStringComparator = new ReverseComparator();
 		//Arrays.sort(teamFirstName, (nom1, nom2) -> customStringComparator.compareTo(nom1, nom2));
 		Arrays.sort(teamFirstName, customStringComparator::compareTo);

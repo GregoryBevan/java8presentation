@@ -16,9 +16,9 @@ public class Calculator {
 		System.out.printf("%s x %s = %s \n", 1, 3, times.apply(1,3));
 		
 		// Division
-		Operator obelus = (a,b) -> a/b;
+		Operator quotient = (a,b) -> a/b;
 		Operator modulo = (a,b) -> a%b;
-		System.out.printf("%s ÷ %s = %s reste %s \n", 1, 3, obelus.apply(1,3), modulo.apply(1, 3));
+		System.out.printf("%s ï¿½ %s = %s reste %s \n", 1, 3, quotient.apply(1,3), modulo.apply(1, 3));
 		
 	}
 }

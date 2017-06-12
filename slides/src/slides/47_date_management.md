@@ -1,4 +1,4 @@
-## Gestion des dates
+## Gestion des dates et heures
 <br><br>
 <table>
   <tr>
