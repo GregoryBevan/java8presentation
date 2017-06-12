@@ -21,7 +21,7 @@ peek(Consumer<? super T> action)
 limit(long maxSize) 
 ```
 ```java
-// Skip les n derniers éléments du Stream
+// Skip les n premiers éléments du Stream
 skip(long n) 
 ```
 <br>
