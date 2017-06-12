@@ -5,10 +5,10 @@ Bloc de code (≈ closure)
 </p>
 <br>
 <p>
-Exécution différé dans le temps
+Exécution différée dans le temps
 </p>
 <br>
 <p>
-Accède aux variables final du scope
+Accède aux variables <span class="hljs-meta">final</span> du scope
 </p>
 <br>

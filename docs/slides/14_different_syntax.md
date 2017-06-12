@@ -8,7 +8,7 @@ Avec paramètre typé / Bloc d'instruction
 ```java
 Function<String,String> uppercase = (String s) -> {return s.toUpperCase();};
 ```
-Paramètre sans type (déduit par le compilateur) / Return implicite
+Paramètres sans type (déduits par le compilateur) / Retour implicite
 ```java
 Comparator<String> stringComparator = (s1, s2) -> s1.length() - s2.length();
 ```
