@@ -4,7 +4,7 @@ import java.util.stream.Stream;
 
 public class StreamFromVarargsExample {
 
-	public static void main(String...args) {		
+	public static void main(String... args) {		
 		Stream.of( "Magali", "Medy", "Thomas", "Dany", "Gaëtan", "Arnaud", "David",
 				"Guillaume", "Antoine", "Grégory").forEach(System.out::println);
 	}
