@@ -6,8 +6,8 @@ import java.util.List;
 public class StreamFromCollection {
 
 	public static void main(String[] args) {
-		List<String> names = Arrays.asList(new String[] { "Magali", "Medy", "Thomas", "Dany", "Ga�tan", "Arnaud", "David",
-				"Guillaume", "Antoine", "Gr�gory" });
+		List<String> names = Arrays.asList("Magali", "Medy", "Thomas", "Dany", "Gaëtan", "Arnaud", "David",
+				"Guillaume", "Antoine", "Grégory" );
 		names.stream().forEach(System.out::println);;
 
 	}

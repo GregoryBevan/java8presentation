@@ -7,7 +7,7 @@ public class LocalDateExample {
 	public static void main(String[] args) {
 		System.out.println("La date du jour est : " + LocalDate.now());
 		System.out.println("Jour de la première conférence Java 8 : " + LocalDate.of(2017, 06, 19));
-		System.out.println("Jour de la seconde conférence Java 8 : " + LocalDate.parse("2017-06-19"));
+		System.out.println("Jour de la seconde conférence Java 8 : " + LocalDate.parse("2017-06-20"));
  
 		System.out.println("La date de demain sera : " + LocalDate.now().plusDays(1));
 		System.out.println("Le jour de la semaine est : " + LocalDate.now().getDayOfWeek());

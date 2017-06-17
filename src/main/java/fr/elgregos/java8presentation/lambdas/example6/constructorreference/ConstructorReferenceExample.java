@@ -7,7 +7,7 @@ public class ConstructorReferenceExample {
 				"Guillaume", "Antoine", "Grégory" };
 		
 		// The constructor reference
-// 		TeamBuilder teamBuilder = (names) -> new Team(names);
+// 		TeamBuilder teamBuilder = names -> new Team(names);
 		TeamBuilder teamBuilder = Team::new;
 
 		Team team = teamBuilder.createTeam(teamFirstName);

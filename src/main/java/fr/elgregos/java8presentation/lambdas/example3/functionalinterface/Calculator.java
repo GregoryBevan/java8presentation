@@ -18,7 +18,7 @@ public class Calculator {
 		// Division
 		Operator quotient = (a,b) -> a/b;
 		Operator modulo = (a,b) -> a%b;
-		System.out.printf("%s � %s = %s reste %s \n", 1, 3, quotient.apply(1,3), modulo.apply(1, 3));
+		System.out.printf("%s / %s = %s reste %s \n", 1, 3, quotient.apply(1,3), modulo.apply(1, 3));
 		
 	}
 }
